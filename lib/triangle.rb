@@ -17,7 +17,7 @@ class Triangle
       false 
     elsif triangle_sides[1] <= 0
       false 
-    elsif @triangle_sides[2] <= 0
+    elsif triangle_sides[2] <= 0
       false  
     else 
       true  
