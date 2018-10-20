@@ -10,14 +10,14 @@ class Triangle
    
   end 
 
-  def valid?(triangle_sides)
-    if triangle_sides[0] + triangle_sides[1] < triangle_sides[2]
+  def valid?
+    if @triangle_sides[0] + @triangle_sides[1] < @triangle_sides[2]
       false 
-    elsif triangle_sides[0] <= 0 
+    elsif @triangle_sides[0] <= 0 
       false 
-    elsif triangle_sides[1] <= 0
+    elsif @triangle_sides[1] <= 0
       false 
-    elsif triangle_sides[2] <= 0
+    elsif @triangle_sides[2] <= 0
       false  
     else 
       true  
